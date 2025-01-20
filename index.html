@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Pandala Manasa</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Pandala Manasa</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skill" onclick="toggleMenu()">Skill</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img 
+          src="user.png.jpg" 
+          alt="Pandala Manasa" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Pandala Manasa</h1>
+        <p class="section__text__p2">Student@ Sri Indu College of Engineering and Technology</p>
+        <div class="btn-container">
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="about">
+
+      <h1 class="title">About Me</h1>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+              <h3>Experience</h3>
+              <p>
+                Operational Lead @ Nextgen Nexus Student Community <br />
+                Volunteered at Lulu Beauty Fest 2024 in Hyderabad
+              </p>
+            </div>
+            <div class="details-container">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h3>Education</h3>
+              <p>
+                B.Tech (CSE) From Sri Indu College of Engineering and Technology <br />
+                6th-10th(SSC) From Narayana e-techno SChool <br />
+                11th&12th(MPC) From Narayana jr. College.<br />
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                Hello! I'm Pandala Manasa, an undergraduate student pursuing my B.Tech in Computer Science and Engineering. As an aspiring software engineer, I'm passionate about exploring the world of full-stack web development with skills in Java, Python, HTML, CSS, and JavaScript.
+
+Beyond coding, I’ve been actively involved in organizing esports events, serving as the Operational Lead at NextGen Nexus, a student community that focuses on both technical and non-technical events. In the non-technical domain, I organize esports events, providing a platform for gamers to showcase their skills. I also volunteered for the Lulu Beauty Fest 2024, gaining valuable event experience.
+
+I’m always eager to expand my horizons through internships and certifications, and I aim to make a meaningful impact both in the tech world and the esports community.
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="skill">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skill-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <i class="fa-brands fa-html5 fa-beat" style="color: red; font-size: 40px"></i>
+                <div>
+                  <h3>HTML</h3>
+
+                </div>
+              </article>
+              <article>
+                <i class="fa-brands fa-css3-alt fa-beat" style="color: #74C0FC; font-size: 40px"></i>
+                <div>
+                  <h3>CSS</h3>
+
+                </div>
+              </article>
+              
+              <article>
+                <i class="fa-brands fa-js fa-beat " style="color: #FFD43B; font-size: 40px"></i>
+                <div>
+                  <h3>JAVASCRIPT</h3>
+
+                </div>
+              </article>
+              <article>
+                <i class="fa-sharp fa-solid fa-c fa-beat "style="font-size: 40px"></i>
+                <div>
+                  <h3>C++</h3>
+                </div>
+              </article>
+              <article>
+                <i class="fa-brands fa-python fa-beat" style="color: #FFD43B; font-size: 40px"></i>
+                <div>
+                  <h3>Pyhton</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              
+              <img
+                src="work-1.png.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skill-sub-title project-title">To-Do List</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://manasa120205.github.io/TODO-APPLICATION/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="work-2.png.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skill-sub-title project-title">Snake Game</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://manasa120205.github.io/Snake-Game/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <i class="fa-solid fa-envelope fa-xl" style="color: #ff0000;"></i>
+          <p><a href="mailto:manasagoud2022@gmail.com">Email &nbsp;</a></p>
+        </div>
+        <div class="contact-info-container">
+          <i class="fa-brands fa-linkedin fa-xl" style="color: #0a66c2;"></i>
+          <p><a href="http://linkedin.com/in/pandala-manasa ">LinkedIn &nbsp;</a></p>
+        </div>
+        <div class="contact-info-container">
+          <i class="fa-brands fa-square-instagram fa-xl" style="color: #ff4747;"></i>
+          <p><a href="https://instagram.com/manasa__.pandala">Instagram</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 PANDALA MANASA. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
